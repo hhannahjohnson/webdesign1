@@ -1,0 +1,39 @@
+.navbar .navbar-brand {
+		font-family: "Oswald";
+        font-size: 2.2em;
+        color: #0AC4B7;
+
+}
+.container {
+width:940px;
+}
+
+img{
+float: left;
+}
+
+.jumbotron {
+height:280px;
+}
+.jumbotron img {
+float:left;
+
+}
+.jumbotron h1 {
+font-size: 40px;
+font-family:'Droid Sans', sans-serif;
+
+
+}
+a{
+color:#0AC4B7;
+}
+
+.list-group {
+max-height: 290 px;
+
+}
+.list-group-item active {
+background color: #0AC4B7;
+}
+
