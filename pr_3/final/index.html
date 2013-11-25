@@ -17,6 +17,7 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700italic' rel='stylesheet' type='text/css'>
     <link href="_/css/style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -29,7 +30,8 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body background= "_/assets/cream_pixels.png">
+  
     <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -45,13 +47,14 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Explore</a></li>
             <li><a href="collections.html">Collections</a></li>
-            <li><a href="about.html">Cart</a></li>
+            <li><a href="#">Cart</a></li>
           </ul>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
     </div><!-- /.navbar -->
 
     <div class="container">
+    
 
       <div class="row row-offcanvas row-offcanvas-right">
 
@@ -60,15 +63,33 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <h1>Best Of Baltimore</h1>
-            <p>Sartorious sells and features products from the following Baltimore Boutiques: <a href="www.bluvintage.com">Blu Vintage</a>, <a href="www.doubledutchboutique.com">DoubleDutch</a> , <a href="www.tomjames.com/‎">Tom James Company</a>, <a href="www.sankofaafricanbazaar.com/">Sankofa African Bazaar</a>, and <a href="www.ellieboutique.com">Ellie.</a> </p>
+            <h1><em>Explore, Create, and Discover</em></h1>
+            <p>Sartorious sells and features products from the following Baltimore Boutiques: <a href="#">Blu Vintage</a>, <a href="#">DoubleDutch</a> , <a href="#‎">Tom James Company</a>, <a href="#">Sankofa African Bazaar</a>, and <a href="#">Ellie.</a> </p>
           </div>
           
           <section class="demo">
 			<div class="gridster">
+			<h4><strong><em> Everything </em></strong></h4>
 				<ul>
-					<li data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div class="handle"> --- </div><a href="object.html"><img src="_/assets/f1.gif"></a></li>					
-				
+					<li data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div class="handle"> --- </div><a data-toggle="modal" href="#" data-target="#myModal"><img src="_/assets/f1.gif"></a></li>	
+					
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Abernathy Sneakers, DoubleDutch ($30.00)</h4>
+      </div>
+      <div class="modal-body">
+        <img src="_/assets/modal.gif">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Add to Cart</button>
+        <button type="button" class="btn btn-primary">Add to Collection</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 					
 					
 					<li data-row="2" data-col="1" data-sizex="1" data-sizey="1"><div class="handle"> --- </div><img src="_/assets/w29.gif"></li>
@@ -127,13 +148,16 @@
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
           <div class="list-group">
-            <a href="index.html" class="list-group-item active">Everything</a>
-            <a href="clothes.html" class="list-group-item">Clothes</a>
-            <a href="home.html" class="list-group-item">Home Goods</a>
-            <a href="beauty.html" class="list-group-item">Beauty</a>
-            <a href="jewelry.html" class="list-group-item">Jewelry</a>
+            <a href="index.html" class="list-group-item active"><em><strong>Everything</em></strong></a>
+            <a href="clothes.html" class="list-group-item"><em><strong>Clothes</em></strong></a>
+            <a href="home.html" class="list-group-item"><em><strong>Home Goods</em></strong></a>
+            <a href="beauty.html" class="list-group-item"><em><strong>Beauty</em></strong></a>
+            <a href="jewelry.html" class="list-group-item"><em><strong>Jewelry</em></strong></a>
+            <a href="beauty.html" class="list-group-item"><em><strong>Bags</em></strong></a>
+            <a href="jewelry.html" class="list-group-item"><em><strong>Gifts</em></strong></a>
            
           </div>
+          
         </div><!--/span-->
       </div><!--/row-->
 

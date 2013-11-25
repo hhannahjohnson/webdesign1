@@ -12,19 +12,16 @@ img{
 float: left;
 }
 
-.jumbotron {
-height:280px;
-}
-.jumbotron img {
+.jumbotron .jimg {
 float:left;
 
 }
 .jumbotron h1 {
 font-size: 40px;
-font-family:'Droid Sans', sans-serif;
-
-
+font-family: 'Playfair Display', serif;
 }
+
+
 a{
 color:#0AC4B7;
 }
@@ -33,7 +30,8 @@ color:#0AC4B7;
 max-height: 290 px;
 
 }
-.list-group-item active {
-background color: #0AC4B7;
-}
 
+.hr {
+	width: 940px;
+	
+}

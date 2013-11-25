@@ -72,6 +72,7 @@ hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
+  weight: 1.5px;
 }
 mark {
   background: #ff0;
@@ -285,7 +286,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #AFFAF5;
   text-decoration: underline;
 }
 a:focus {
@@ -324,6 +325,7 @@ hr {
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee;
+  width: 940px; 
 }
 .sr-only {
   position: absolute;
@@ -485,11 +487,14 @@ h3,
 }
 h4,
 .h4 {
+  font-family: 'georgia', serif; 
   font-size: 18px;
+  padding: 11px;
 }
 h5,
 .h5 {
   font-size: 14px;
+  padding: 7px;
 }
 h6,
 .h6 {
@@ -2006,8 +2011,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #0AC4B7;
+  border-color: #0AC4B7;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -4440,20 +4445,24 @@ a.list-group-item.active > .badge,
   margin-left: 3px;
 }
 .jumbotron {
+  height:285px;
   padding: 30px;
   margin-bottom: 30px;
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #292929;
 }
 .jumbotron h1 {
   line-height: 1;
-  color: inherit;
+  color: white;
+  font-family: 'Playfair Display', serif;
+
 }
 .jumbotron p {
   line-height: 1.4;
+  color:white; 
 }
 .container .jumbotron {
   border-radius: 6px;
@@ -4711,6 +4720,7 @@ a.thumbnail.active {
 .list-group-item {
   position: relative;
   display: block;
+  font-family:'Georgia', serif;
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #ffffff;
@@ -4747,8 +4757,8 @@ a.list-group-item.active:hover,
 a.list-group-item.active:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #0AC4B7;
+  border-color: #0AC4B7;
 }
 a.list-group-item.active .list-group-item-heading,
 a.list-group-item.active:hover .list-group-item-heading,
@@ -5127,8 +5137,7 @@ button.close {
   filter: alpha(opacity=0);
 }
 .modal-backdrop.in {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  filter: alpha(opacity=100);
 }
 .modal-header {
   padding: 15px;
@@ -5145,6 +5154,7 @@ button.close {
 .modal-body {
   position: relative;
   padding: 20px;
+  height: 160px
 }
 .modal-footer {
   margin-top: 15px;

@@ -1,0 +1,186 @@
+<!DOCTYPE>
+<html>  
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+		<title>Responsive Wireframes</title>
+
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="screen" title="master" charset="utf-8">
+		<link rel="stylesheet" href="css/user.css" type="text/css" media="screen" title="master" charset="utf-8">
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Modal -->
+			<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" 
+				aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			    <h3 id="myModalLabel">SIGNIN</h3>
+			  </div>
+			  <div class="modal-body">
+			    <p><label for="username">Username</label><input type="text" name="username" value="" 
+						placeholder="Enter username" id="username">
+			    </p>
+					<p><label for="password">Password</label><input type="password" name="password" value="" 
+						placeholder="Enter password" id="password">
+					</p>
+			  </div>
+			  <div class="modal-footer">
+			    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			    <button class="btn btn-primary">Save changes</button>
+			  </div>
+			</div>
+			
+			<header class="row">
+				<div class="span7">
+				<h2 id="banner">Brand</h2>
+
+				</div>
+				
+				<div class="span5">
+				<a href="#myModal" role="button" class="btn" data-toggle="modal">Login</a>
+
+								</div>
+			</header>
+			
+			<nav id="primary-navigation" class="row">
+				<div class="span12 tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Home</a></li>
+						<li><a href="#tab2" data-toggle="tab">Books</a></li>
+						<li><a href="#tab3" data-toggle="tab">Databases</a></li>
+						<li><a href="#tab4" data-toggle="tab">Research Guides</a></li>
+					</ul>
+				</div>
+			</nav>
+			
+			<section class="row">
+				<article class="span9 tab-content">
+					<div class="tab-pane active" id="tab1">
+						<div class="hero-unit">
+							<hgroup>
+								
+								<h2>Library and Resource Center</h2>
+							</hgroup>
+							<p>Image</p>
+							</br>
+							<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+    <span class="sr-only">Keyword</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+							<input type="search" placeholder="Enter search term" data-provide="typeahead" 
+						id="search"/>
+						  <button type="button" class="btn btn-default">Search</button>
+
+							
+						</div>
+
+						<ul class="thumbnails">
+							<li class="span3">
+								<figure>
+									<img src="http://placehold.it/300x300" alt="3 column placeholder" />
+									<figcaption>
+										<h5>Featured</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur.</p>								
+									</figcaption>
+								</figure>
+							</li>
+
+							<li class="span3">
+								<figure>
+									<img src="http://placehold.it/300x300" alt="3 column placeholder" />
+									<figcaption>
+										<h5>Featured</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur.</p>
+									</figcaption>
+								</figure>
+							</li>
+
+							<li class="span3">
+								<figure>
+									<img src="http://placehold.it/300x300" alt="3 column placeholder" />
+									<figcaption>
+										<h5>Featured </h5>
+										<p>Lorem ipsum dolor sit amet, consectetur.</p>
+									</figcaption>
+								</figure>
+							</li>
+						</ul>
+						<ul class="thumbnails">
+							<li class="span3">
+								<figure>
+									<img src="http://placehold.it/300x300" alt="3 column placeholder" />
+									<figcaption>
+										<h5>Featured</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur.</p>								
+									</figcaption>
+								</figure>
+							</li>
+
+							<li class="span3">
+								<figure>
+									<img src="http://placehold.it/300x300" alt="3 column placeholder" />
+									<figcaption>
+										<h5>Featured</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur.</p>
+									</figcaption>
+								</figure>
+							</li>
+
+							<li class="span3">
+								<figure>
+									<img src="http://placehold.it/300x300" alt="3 column placeholder" />
+									<figcaption>
+										<h5>Featured </h5>
+										<p>Lorem ipsum dolor sit amet, consectetur.</p>
+									</figcaption>
+								</figure>
+							</li>
+						</ul>
+
+					</div>
+					
+					<div class="tab-pane" id="tab2">
+						This is tab2 content.
+					</div>
+					
+					<div class="tab-pane" id="tab3">
+						This is tab3 content.
+					</div>
+					
+					<div class="tab-pane" id="tab4">
+						This is tab4 content.
+					</div>
+				</article>
+				
+				<aside class="span3" id="sidebar">
+					<h3>Sidebar</h3>
+					<p>blogroll</br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br></p>
+				</aside>
+			</section>
+			
+			<footer class="row">
+				<div class="span12">
+					<h4>This is the footer</h4>
+				</div>
+			</footer>
+		</div>
+		
+		<script src="js/vendor/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap/bootstrap.js" type="text/javascript"></script>
+		<script type="text/javascript" charset="utf-8">
+		
+		</script>
+	</body>
+</html>
