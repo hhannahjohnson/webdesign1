@@ -1,0 +1,171 @@
+input[type="text"].form-control {
+display: block;
+width: 98%;
+height: 40px;
+padding: 6px 12px;
+font-size: 22px;
+line-height: 1.428571429;
+color: #555;
+vertical-align: middle;
+background-color: #fff;
+background-image: none;
+border: thin solid;
+border-color: #666666;
+border-radius: 1px;
+box-shadow: 3px 3px 8px #ADADAD;
+}
+
+input[type="checkbox"].dropdown-menu {
+vertical-align:middle;
+
+}
+
+header {
+	font-family: 'Droid Serif', Georgia, serif;
+	font-size:  1.2em;
+	padding: 0 10%;
+}
+
+header h1 {
+ 	font-family: "Lobster two",georgia, serif;
+	color: #E2E6AC;
+}
+
+
+header p {
+	margin-bottom: 25px;
+}
+
+
+.carousel {
+	margin-top: 20px;
+	border: 1px solid gray;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9986295347545738, M12=-0.05233595624294383, M21=0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
+	zoom: 1;
+	-webkit-box-shadow: 3px 3px 9px #ADADAD;
+        -moz-box-shadow: 3px 3px 9px #ADADAD;
+        box-shadow: 3px 3px 9px #ADADAD;
+        
+}
+.carousel-indicators {
+position: absolute;
+top: 350px;
+right: 350px;
+z-index: 5;
+margin: 0;
+list-style: none;
+border: #FF3F00;
+}
+
+.carousel .item {
+	max-height: 400px;
+}
+
+.carousel-caption {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: white;
+height:60px;
+}
+
+
+.carousel-caption p {
+color: #7A7A7A;
+}
+
+h3 {
+font-family:'Arvo', serif;
+font-weight: normal;
+color: #FF3F00;
+font-size: 16px;
+line-height: 1;
+
+}
+h2 { 
+font-family:'Arvo', serif;
+font-weight: normal;
+font-size: 16px;
+color: #7A7A7A;
+line-height: 1.4;
+}
+
+
+.carshow {
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+
+.carshow h2 {
+	font-weight: normal;
+	color: white;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #FF3F00;
+	font-size: 18px;
+	height: 30px;
+}
+	
+.carshow h3 {
+	font-size: 14;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	color: #7A7A7A;
+	height: 30px;
+}
+
+.carshow p {
+	font-size:  14px;
+	line-height: 18px;
+	color: #7A7A7A;
+}
+
+.carshow img {
+    box-shadow: 3px 3px 7px #ADADAD;
+	margin-top: 20px;
+}
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+}
+.navbar-inner {
+	background-color: #3D3D3D;
+	height: 100px;
+
+}
+
+.navbar-inverse .brand {
+padding-bottom: 10px;
+font-family: 'Oswald', sans-serif;
+color: #FF3F00;
+font-size: 28px;
+vertical-align: middle;
+
+}
+
+.navbar .nav > li > a {
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	vertical-align: middle;
+}
+
+.navbar-inverse .nav > li > a {
+	color: #FFF;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+	
+}
