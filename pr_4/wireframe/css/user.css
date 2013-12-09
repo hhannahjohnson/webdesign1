@@ -1,14 +1,12 @@
-/* Basic style rule to outline and space block-level elements */
 [class*="span"] {
 	background: #eee;
 	margin-bottom: 10px;
 }
 
-/* Basic background colors for responsive break points */
-/* Max-width 480px landscape phone and down */
+/* Max-width 480px */
 @media (max-width: 480px) {
 	.container {
-		background: white;
+	background-color: aqua;
 	}
 	
 	.container:after {
@@ -16,10 +14,10 @@
 	}
 }
 
-/* Min-width 481px and max-width 767px landscape phone to portrait tablet */
+/* Min-width 481px and max-width 767px */
 @media (min-width: 481px) and (max-width: 767px) {
 	.container {
-		background: white;
+	background-color: fuchsia;
 	}
 	
 	.container:after {
@@ -27,10 +25,10 @@
 	}
 }
 
-/* Min-width 768px and max-width 979px portrait tablet to landscape */
+/* Min-width 768px and max-width 979px  */
 @media (min-width: 768px) and (max-width: 979px) {
 	.container {
-		background: white;
+	background-color: lime;
 	}
 	
 	.container:after {
@@ -38,10 +36,10 @@
 	}
 }
 
-/* Min-width 980px widescreen display */
+/* Min-width 980px  */
 @media (min-width: 980px) and (max-width: 1199px) {
   .container {
-		background: white;
+  background-color: green;
 	}
 	
 	.container:after {
@@ -49,10 +47,10 @@
 	}
 }
 
-/* Min-width 1200px widescreen display */
+/* Min-width 1200px */
 @media (min-width: 1200px) {
   .container {
-		background: #fff;
+  background-color: blue;
 	}
 	
 	.container:after {
