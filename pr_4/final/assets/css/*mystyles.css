@@ -3,9 +3,14 @@ font-family: "Arvo", serif;
 }
 
 .form-group{
-background-color: #D1D1D1;
+background-color: white;
 padding-top: 10px;
 padding-left: 10px;
+border: thin #BFBFBF solid;
+box-shadow: 3px 3px 7px #ADADAD;
+
+
+
 }
 
 input-prepend input-append{
@@ -34,10 +39,22 @@ font-family:'Ubuntu', sans-serif;
 font-weight: normal;
 font-size: 18px;
 color: #FF3F00;
+}
 
 .jumbotron p {
 color: #7A7A7A;
+font-family: "Arvo", serif;
+line-height: 1.4;
 }
+
+h1 { 
+font-family: 'Ubuntu', serif;
+font-weight: 700;
+font-size: 18px;
+margin-bottom: 0px;
+padding:0px;
+color: gray;
+
 }
 
 
